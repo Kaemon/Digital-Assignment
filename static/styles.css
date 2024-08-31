@@ -1,0 +1,131 @@
+/* 重置所有元素的边距、填充和边框 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* 确保 body 和 html 没有间隙 */
+html, body {
+    height: 100%;
+    overflow-x: hidden; /* 防止水平滚动条 */
+}
+
+/* Navigation 样式 */
+.bg-white {
+  background-color: #ffffff;
+}
+.video-background {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1px; /* 防止意外的白线 */
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    object-fit: cover; /* 适应屏幕比例，覆盖整个背景 */
+}
+
+.content {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* 确保导航栏在最上层 */
+    background-color: #ffffff; /* 可以根据你的设计更改颜色 */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* 添加一个下边框，使其更明显 */
+}
+.featurette-divider {
+    margin: 5rem 0;
+}
+.featurette-divider-small {
+    margin: 3rem 0;
+}
+
+#gif-container {
+    display: none;
+    margin-top: 20px;
+}
+
+/* 基于现有的样式，添加表单容器的样式 */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* 调整按钮样式 */
+.btn-outline-secondary {
+    border: 2px solid #6c757d;
+    background-color: transparent;
+    color: #6c757d;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+/* 调整表单元素的间距和宽度 */
+.form-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-control,
+.form-select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+.card {
+    margin-top: 20px;
+}
+
+/* 调整标题字体，使其符合整体风格 */
+h1.display-5 {
+    font-family: "Baskervville SC", serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.row {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.custom-radio .form-check-input {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
