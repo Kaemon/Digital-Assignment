@@ -1,8 +1,13 @@
 # 🏨 Majestic Hotel — Web Application
 
-A hotel management web application built with Flask and HTML/CSS, developed as a Year 1 university assignment.
+A hotel management web application built with Flask and HTML/CSS, developed as an university assignment.
 
 ## 📸 Preview
+<img width="1710" height="1107" alt="Screenshot 2026-03-03 at 5 09 15 PM" src="https://github.com/user-attachments/assets/a5aaee5a-93fb-43ee-9d05-188288f6555c" />
+<img width="1710" height="1107" alt="Screenshot 2026-03-03 at 5 09 55 PM" src="https://github.com/user-attachments/assets/e918a6d9-f19e-4da5-9b8e-5919b5c7bc92" />
+<img width="1710" height="1107" alt="Screenshot 2026-03-03 at 5 10 08 PM" src="https://github.com/user-attachments/assets/585dc959-d97d-42b6-af86-e14c3d2e06fa" />
+<img width="1710" height="1107" alt="Screenshot 2026-03-03 at 5 10 15 PM" src="https://github.com/user-attachments/assets/33ffc1c2-c2c5-4a5d-b8e6-1a493e0fab09" />
+<img width="1710" height="1107" alt="Screenshot 2026-03-03 at 5 10 22 PM" src="https://github.com/user-attachments/assets/f0fd4ba9-6105-4f71-a38d-03bad6d3a930" />
 
 > Add a screenshot of your app here!
 
@@ -49,4 +54,4 @@ Then open your browser and go to `http://127.0.0.1:5002`
 
 ## 📚 Context
 
-Built as a Year 1 university assignment to demonstrate basic web development skills using Python and Flask.
+Built as an university assignment to demonstrate basic web development skills using Python and Flask.
